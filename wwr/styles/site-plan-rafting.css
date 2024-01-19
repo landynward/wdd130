@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@500&display=swap');
+:root {
+    --primary-color: #946846;
+    --secondary-color: #7EA16B;
+    --accent1-color: #C3D898;
+    --accent2-color: #FCC8B2;
+
+    --heading-font: 'rubik', rubik;
+    --paragraph-font: 'roboto', roboto;
+
+    --nav-background-color: #C3D898;
+    --nav-link-color: #946846;
+    --nav-hover-link-color: #7EA16B;
+    --nav-hover-background-color: #FCC8B2;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
