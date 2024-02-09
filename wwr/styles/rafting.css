@@ -99,6 +99,17 @@ section {
     justify-content: space-between;
     align-items: center; 
 }
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
 /* Class Selector */
 
 .hero img {
@@ -113,4 +124,8 @@ section {
 .sociallinks {
     display: flex;
     justify-content: flex-end;
+}
+.information {
+    align-items: center;
+    text-align: center;
 }
